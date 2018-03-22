@@ -13,13 +13,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content ==='!gay') {
-        message.reply('Johnson is');
+        message.reply('You');
     }
 });
 
 client.on('message', message => {
     if (message.content ==='!hanzo') {
-        message.reply('I was created by Yuri Petrakovich#1145 and also I was determined to be salty bot.');
+        message.reply('I was created by Yuri Petrakovich#1145 and also I was determined to be a salty bot.');
     }
 });
 
