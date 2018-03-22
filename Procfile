@@ -1,1 +1,1 @@
-worker: node hanzo.js
+worker: node bot.js
