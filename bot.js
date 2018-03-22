@@ -23,5 +23,11 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if (message.content ==='!hanzohelp') {
+        message.reply('Hanzo here is to help! Type ping to pong you. !hanzo to know more about me. !gay to know who is actually gay in this server.');
+    }
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
