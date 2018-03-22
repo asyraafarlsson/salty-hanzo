@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "main": "hanzo.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node hanzo.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
