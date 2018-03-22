@@ -9,9 +9,12 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-    if (message.content ==='?gay'
-     {message.reply('Johnson is')
-}
+});
+
+client.on('message', message => {
+    if (message.content ==='gay') {
+        message.reply('Johnson is');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
